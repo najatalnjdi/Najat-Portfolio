@@ -8,7 +8,7 @@ function setLanguage(lang){
     el.innerHTML=el.dataset[lang];
   });
   langButton.textContent=lang==="en"?"العربية":"English";
-  document.title=lang==="ar"?"نجاة النعيمي | مطورة واجهات أمامية":"Najat Alnjdi | Front-End Developer";
+  document.title=lang==="ar"?"نجاة النجدي | مطورة واجهات أمامية":"Najat Alnjdi | Front-End Developer";
   try{localStorage.setItem("najat-portfolio-language",lang)}catch(e){}
 }
 let initial="en";
